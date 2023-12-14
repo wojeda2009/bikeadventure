@@ -1,0 +1,108 @@
+.form {
+    padding: 1px;
+    margin: 20px;
+    box-shadow: 0 0 20px rgba(145, 144, 144, 0.616);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .label {
+    color: rgb(241, 26, 10);
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  
+  input::placeholder, textarea::placeholder {
+    color: rgba(0, 0, 0, 0.068) 0.219, 16, 110, 110;
+  }
+  
+  .form-txt {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .form-txt a {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 600px;
+    text-decoration: none;
+  }
+  
+  .button {
+    font-size: 16px;
+    color: rgb(253, 0, 0);
+    border: 0;
+    border-radius: 25px;
+    background-color: rgb(45, 48, 46);
+    box-shadow: 0 0 20px rgba(252, 0, 0, 0.4);
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: rgb(73, 44, 31);
+  }
+  
+  .formdirection {
+    display: flex;
+    justify-content: center;
+  }
+
+#nombre {
+    margin: 10px;
+    border-radius: 25px;
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: rgb(61, 68, 63);
+    border: 2px solid rgb(245, 32, 8), 240, 240;
+    color: black;
+    outline: none;
+  }
+
+#telefono {
+    margin: 10px;
+    border-radius: 25px;
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: rgb(61, 68, 63);
+    border: 2px solid rgb(245, 32, 8), 240, 240;
+    color: black;
+    outline: none;
+}
+
+#correo {
+    margin: 10px;
+    border-radius: 25px;
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: rgb(61, 68, 63);
+    border: 2px solid rgb(245, 32, 8), 240, 240;
+    color: black;
+    outline: none;
+}
+
+#mensaje {
+    margin: 10px;
+    border-radius: 25px;
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: rgb(61, 68, 63);
+    border: 2px solid rgb(245, 32, 8), 240, 240;
+    color: black;
+    outline: none;
+}

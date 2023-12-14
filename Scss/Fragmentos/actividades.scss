@@ -1,0 +1,20 @@
+.actividades {
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    width: auto;
+    padding: 5vh;
+  }
+  
+  .act1 {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0;
+    text-align: center;
+  }
+  
+  .dia {
+    background: #eee;
+    font-weight: bold;
+    text-align: center;
+  }
