@@ -1,9 +1,11 @@
 // Mi archivo principal de SASS
-@import "Fragmentos/actividades.scss";
-@import "Fragmentos/contacto.scss";
-@import "Fragmentos/galeria.scss";
-@import "Fragmentos/jumbotron.scss";
-@import "Fragmentos/navbar.scss";
-@import "Fragmentos/texto.scss";
-@import "Fragmentos/travesias.scss";
-@import "Fragmentos/footer.scss";
+@import "Fragmentos/_variables.scss";
+@import "Fragmentos/_mixin.scss";
+@import "Fragmentos/_actividades.scss";
+@import "Fragmentos/_contacto.scss";
+@import "Fragmentos/_galeria.scss";
+@import "Fragmentos/_jumbotron.scss";
+@import "Fragmentos/_navbar.scss";
+@import "Fragmentos/_texto.scss";
+@import "Fragmentos/_travesias.scss";
+@import "Fragmentos/_footer.scss";
